@@ -119,3 +119,19 @@ body{
     width: 90%;
     align-self: center;
 }
+
+/* quote content in main body */
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    flex-wrap: wrap;
+}
+.quote1{
+    padding: 150px;
+    width: 750px;
+    font-size: 32px;
+    font-weight: 300;
+    color: #1F2937;
+}
