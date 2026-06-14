@@ -127,6 +127,7 @@ body{
     align-items: center;
     background-color: #e5e7eb;
     flex-wrap: wrap;
+    margin-bottom: 100px;
 }
 .quote1{
     padding: 150px;
@@ -134,4 +135,37 @@ body{
     font-size: 32px;
     font-weight: 300;
     color: #1F2937;
+}
+
+/* help content */
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(38, 126, 241);
+    align-self: center;
+    padding: 50px;
+    width: 1000px;
+    border-radius: 12px;
+    margin-bottom: 100px;
+    justify-content: space-evenly;
+}
+.call-help{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.product button{
+    width: 125px;
+    height: 35px;
+    color: white;
+    background-color: rgb(38, 126, 241);
+    border-radius: 12px;
+    border-color: white;
+    border-width: 2px;
+    font-size: medium;
+    font-weight: 700;
 }
