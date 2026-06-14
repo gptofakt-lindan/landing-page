@@ -28,6 +28,7 @@ body{
 .links{
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 
 }
 .links a{
@@ -55,6 +56,7 @@ body{
     align-self: center;
 
     display: flex;
+    flex-wrap: wrap;
     gap: 50px;
     justify-content: center;
     align-items: center;
@@ -81,4 +83,39 @@ body{
 }
 
 
+/* main body content */
 
+/* info abt the prod */
+.body{
+    display: flex;
+    flex-direction: column;
+}
+.random-info{
+    padding: 25px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    
+}
+.item{
+    flex: 1 1 200px;
+    max-width: 300px;
+    text-align: center;
+    border: 4px solid #1f2937;
+    border-radius: 16px;
+
+}
+.item img{
+    height: auto;
+    width: 90%;
+    align-self: center;
+}
