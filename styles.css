@@ -1,0 +1,84 @@
+.heading-logo img{
+    height: 50px;
+    width: 50px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+
+}
+
+.heading{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+
+}
+.links a{
+    text-decoration: none;
+    color: white;
+}
+
+.start{
+    color: white;
+}
+#main-heading{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+}
+
+#main-line{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* start for heading content */
+.heading-content{
+    align-self: center;
+
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 50px;
+}
+#heading-content-start{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#heading-content-start button{
+    width: 100px;
+    height: 35px;
+    /* padding: 3px 3px; */
+    color: white;
+    background-color: rgb(38, 126, 241);
+    border-radius: 12px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
